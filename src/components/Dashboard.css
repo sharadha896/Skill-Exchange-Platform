@@ -1,0 +1,44 @@
+.dashboard-bg {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1551288049-bebda4e38f71");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-card {
+  background: rgba(255,255,255,0.9);
+  padding: 50px;
+  border-radius: 15px;
+  text-align: center;
+  width: 800px;
+}
+
+.dashboard-card h1 {
+  margin-bottom: 10px;
+}
+
+.dashboard-card p {
+  margin-bottom: 30px;
+}
+
+.dashboard-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  background: #2563eb;
+  color: white;
+  padding: 25px;
+  width: 30%;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  background: #1e40af;
+}
