@@ -1,0 +1,42 @@
+.search-page{
+padding:30px;
+background:#f3f4f6;
+min-height:100vh;
+}
+
+.search-bar{
+width:300px;
+padding:10px;
+margin:20px 0;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+.results{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.video-card{
+display:flex;
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+gap:20px;
+}
+
+.video-info h3{
+margin:0;
+}
+
+.watch-btn{
+background:#2563eb;
+color:white;
+border:none;
+padding:8px 15px;
+border-radius:6px;
+cursor:pointer;
+margin-top:10px;
+}
