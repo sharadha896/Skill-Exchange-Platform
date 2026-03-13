@@ -2,41 +2,42 @@ import React from "react";
 import "./Home.css";
 
 function Home() {
-
   return (
-    <div className="home-container">
+    <div className="home">
 
-      <h1>Welcome to Skill Exchange</h1>
-
-      <h2>Popular Skills</h2>
-
-      <div className="skills">
-
-        <div className="skill-card">React Development</div>
-        <div className="skill-card">Python Programming</div>
-        <div className="skill-card">UI/UX Design</div>
-        <div className="skill-card">Data Science</div>
-
+      {/* HERO SECTION */}
+      <div className="hero">
+        <div className="hero-content">
+          <h1>Skill Exchange Platform</h1>
+          <p>Share skills and learn from others.</p>
+          <button>Get Started</button>
+        </div>
       </div>
 
-      <h2>Learning Videos</h2>
+      {/* FEATURES */}
+      <div className="features">
+        <div className="feature-box">
+          <h3>Learn Skills</h3>
+          <p>Learn new skills from experts.</p>
+        </div>
 
-      <div className="videos">
+        <div className="feature-box">
+          <h3>Share Skills</h3>
+          <p>Teach what you know to others.</p>
+        </div>
 
-        <iframe
-          width="300"
-          height="200"
-          src="https://www.youtube.com/embed/bMknfKXIFA8"
-          title="React Tutorial"
-        ></iframe>
+        <div className="feature-box">
+          <h3>Grow Together</h3>
+          <p>Connect and collaborate with people.</p>
+        </div>
+      </div>
 
-        <iframe
-          width="300"
-          height="200"
-          src="https://www.youtube.com/embed/rfscVS0vtbw"
-          title="Python Tutorial"
-        ></iframe>
-
+      {/* CONTACT US */}
+      <div className="contact">
+        <h2 style={{ textAlign: "center" }}>Contact Us</h2>
+        <p style={{ textAlign: "center" }}>Email: skillexchange@gmail.com</p>
+        <p style={{ textAlign: "center" }}>Phone: +91 9876543210</p>
+       
       </div>
 
     </div>
